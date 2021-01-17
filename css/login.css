@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(102, 120, 131);
+
+}
+.navbar-brand,.navbar-nav{
+    color: rgb(248, 66, 151);
+    padding: 0 10px;
+}
+.navbar .container-fluid{
+    background-color: rgb(95, 255, 228);
+}
+#btn-div{
+   position: center;
+    width: 300px;
+}
+#btn-div .btn-login,.btn-singup{
+    background-color: rgb(255, 13, 13);
+    padding: 6px 18px;
+    margin: 6px 6px;
+  
+}
