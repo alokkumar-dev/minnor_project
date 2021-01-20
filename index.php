@@ -1,5 +1,7 @@
 <?php
 include 'header.php';
+session_start();
+
 ?>
 <div id="main-content">
     <h2>All Records</h2>
@@ -15,7 +17,12 @@ include 'header.php';
 
 
         ?>
+<body>
+    <dev class="container">
+        <a href="home.php">Logout</a>
+<?php echo $_SESSION['username']; ?>
 
+    </dev>    
     <table cellpadding="7px">
         <thead>
         <th>Id</th>
