@@ -2,8 +2,8 @@
 
   $id=$_POST['sid'];
   $name=$_POST['sname'];
-  $address=$_POST['saddress']."<br>";
-  $class=$_POST['sclass']."<br>";
+  $address=$_POST['saddress'];
+  $class=$_POST['sclass'];
   $phone=$_POST['sphone'];
 
 

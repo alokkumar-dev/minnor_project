@@ -19,7 +19,7 @@ session_start();
         ?>
 <body>
     <dev class="container">
-        <a href="home.php">Logout</a>
+      
 <?php echo $_SESSION['username']; ?>
 
     </dev>    

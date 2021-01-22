@@ -10,7 +10,7 @@
             <label>Address</label>
             <input type="text" name="saddress" />
         </div>
-        <div class="form-group">
+        <div class="form-group" id="class_drop">
             <label>Class</label>
             <select name="sclass">
                 <option value="" selected disabled>Select Class</option>
