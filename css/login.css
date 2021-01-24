@@ -6,7 +6,8 @@
 body{
     width: 100%;
     height: auto;
-    
+    /* background:radial-gradient(rgb(236, 17, 236) ,rgba(72, 247, 203, 0.932)); */
+    /* background: linear-gradient(rgb(0, 247, 255),url(./nature.jpg)); */
     background-image:url(images/nature.jpg);
 }
 .container{

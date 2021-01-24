@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>student record management system</title>
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/iindex.css">
 </head>
 <body>
+<div class="container">
+
+</div>
     <div id="wrapper">
+        <div class="btn-div">
+                <button class="btn-logout"><a href="home.php" >Logout</a></button>
+                <button class="btn-admin"><a href="admin.php" >New admin</a></button>
+        </div>
         <div id="header">
             <h1>SRMS</h1>
-    
-                <a href="home.php" id="login" >Logout</a>
+            
+                
             
         </div>
         <div id="menu">
