@@ -19,15 +19,43 @@ body{
     margin: 50px auto 0;
     background-color: rgb(158, 148, 148);
 }
+.btn-div{
+    background-color: #1abc9c;
+    padding: 0 10px;
+}
+.btn-logout{
+    font-size: 20px;
+    font-weight: bold;
+   
+    height: 2em;
+    background-color: #ffffffbb;
+    padding: 2px 5px;
+   
+
+}
+.btn-logout a{
+    text-decoration: none;
+     color: red;
+}
+.btn-admin{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    float: right;
+    height: 2em;
+    background-color: #ffffffbb;
+    text-decoration: none;
+    padding:5px;
+}
+.btn-admin a{
+    text-decoration: none;
+     color: red;
+}
 
 #header{
     text-align: center;
     background-color: #1abc9c;
     padding: 10px;
-}
-#wrapper #header a{
-    float: right;
-    font-size: 50px;
 }
 
 #header h1{
@@ -53,8 +81,8 @@ body{
     display: inline-block;
 }
 #menu ul li a{
-    color: rgb(255, 255, 255);
-    font-size: 16px;
+    color: #ffffff;
+    font-size: 1px;
     font-weight: 600;
     padding: 10px 15px;
     display: block;
@@ -66,6 +94,8 @@ body{
 #menu ul li a:hover{
     background-color: rgb(196, 42, 75);
 }
+
+/* index page start here */
 
 #main-content{
      padding: 25px;
@@ -183,6 +213,9 @@ body{
 #main-content .pagination li a:hover{
     background-color: #333;
 }
+/* index page end here */
+
+
 /* #logout_div #login{
     font-size: 30px;
 

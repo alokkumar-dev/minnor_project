@@ -13,12 +13,11 @@ session_start();
   $result = mysqli_query($conn , $str);
   $num = mysqli_num_rows($result);
   if($num == 1){
-    $reg = "insert into login(email , password) values ('$email' , '$password')";
-    mysqli_query($conn ,$reg);
   echo"Email id already exiest in our databases.";
   }
   else{
-    
+    $reg = "insert into login(email , password) values ('$email' , '$password')";
+    mysqli_query($conn ,$reg);
     echo"Registration Successfully";   
  }
 

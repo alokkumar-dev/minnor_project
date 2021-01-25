@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>student record management system</title>
-  <link rel="stylesheet" href="css/iindex.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <div class="container">
@@ -17,10 +17,7 @@
                 <button class="btn-admin"><a href="admin.php" >New admin</a></button>
         </div>
         <div id="header">
-            <h1>SRMS</h1>
-            
-                
-            
+            <h1>srms</h1>            
         </div>
         <div id="menu">
             <ul>
