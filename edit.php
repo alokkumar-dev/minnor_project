@@ -6,6 +6,7 @@
      $conn=mysqli_connect("localhost","root","","phpcrud") or die("Connection failed");
      
       $stu_id=$_GET['id'];
+      
        $str="select * from students where sid = {$stu_id}";
 
         $result= mysqli_query($conn,$str) or die("Query unsuccessfull");

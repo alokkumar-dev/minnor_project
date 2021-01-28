@@ -41,8 +41,12 @@ body{
     .error span{
           font-family: 'Times New Roman', Times, serif;
           font-weight: bold;
-          color: red;
-          
+          color: red;  
+    }
+    .success span{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: green;  
     }
     .form-div input{
         width: 40vw;

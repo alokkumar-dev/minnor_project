@@ -76,16 +76,14 @@ body{
     padding: 0 15px;
     margin: 0;
     list-style: none;
-}
-#menu ul li{
+} #menu ul li{
     display: inline-block;
 }
 #menu ul li a{
     color: #ffffff;
-    font-size: 1px;
+    font-size: 18px;
     font-weight: 600;
     padding: 10px 15px;
-    display: block;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.3s ease;
@@ -205,7 +203,7 @@ body{
     text-decoration: none;
     color: #fff;
     background-color: #1abc9c;
-    display: block;
+    display: inline-block;
     margin: 0 5px 0 0;
     transition: all 0.3s;
 }
