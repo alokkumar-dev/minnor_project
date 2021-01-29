@@ -11,9 +11,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="form-div">
-        <button class="btn_back"><a href="index.php" >Back</a></button>
 
+        <div class="form-div">
+            <div class="btn_div">
+              <button class="btn_back"><a href="index.php" >Back</a></button>
+            </div>
             <h1>New admin</h1>
             <form action="adminDB.php" method="post">
                 <?php
