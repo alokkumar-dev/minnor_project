@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="./css/llogin.css?a">
+    <link rel="stylesheet" href="./css/login.css?a">
 
 </head>
 <body>
     <div class="container">
         <div class="form-div">
-        <button class="btn-logout"><a href="index.php" >Logout</a></button>
+        <button class="btn_back"><a href="index.php" >Back</a></button>
 
             <h1>New admin</h1>
             <form action="adminDB.php" method="post">
