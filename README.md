@@ -1,1 +1,0 @@
-# miner_project

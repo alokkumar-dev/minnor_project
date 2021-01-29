@@ -8,7 +8,7 @@ body{
     height: auto;
     /* background:radial-gradient(rgb(236, 17, 236) ,rgba(72, 247, 203, 0.932)); */
     /* background: linear-gradient(rgb(0, 247, 255),url(./nature.jpg)); */
-    background-image:url(images/nature.jpg);
+    background-image:url(images/nature.png);
 }
 .container{
 
@@ -38,7 +38,7 @@ body{
     } 
     .btn_div{
         float: left;
-        margin-top: -20px;
+        margin-top: 0;
         width: 50vw;
         height:1em;
         
@@ -62,12 +62,15 @@ body{
     .error span{
           font-family: 'Times New Roman', Times, serif;
           font-weight: bold;
-          color: red;  
+          color: red; 
+          text-shadow: 1PX 1PX red; 
+
     }
     .success span{
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
-        color: green;  
+        color: rgb(0, 255, 0); 
+        text-shadow: 1PX 1PX rgb(0, 255, 0); 
     }
     .form-div input{
         width: 40vw;

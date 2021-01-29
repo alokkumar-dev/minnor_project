@@ -23,7 +23,7 @@
                     echo '<div class="error"><span>Could\'t Register Admin !</span></div><br>';
                 }
                 if(isset($_GET['error']) && $_GET['error']=="false"){
-                    echo '<div class="success"><span>Registration Success</span></div><br>';
+                    echo '<div class="success"><span>Registration Success !</span></div><br>';
                 }
                 ?>
                 <label>Enter your email</label><br>
