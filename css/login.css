@@ -38,6 +38,31 @@ body{
     font-size: 30px;
 
     } 
+    .btn_back{
+        background-color: #ffffffbb;
+        font-size:25px;
+        font-weight: bold;
+        height: 2em;
+        padding: 2px 10px;
+        float: left;
+        
+    }
+    .btn_back a{
+        text-decoration: none;
+        color: red;
+        
+
+    } 
+    .error span{
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: bold;
+          color: red;  
+    }
+    .success span{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: green;  
+    }
     .form-div input{
         width: 40vw;
         height: 3em;
