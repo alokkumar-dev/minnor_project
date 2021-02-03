@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="./css/llogin.css?a">
+    <link rel="stylesheet" href="./css/login.css?a">
 
 </head>
 <body>
@@ -26,11 +26,11 @@
                     echo '<div class="success"><span>Registration Success !</span></div><br>';
                 }
                 ?>
-                <label>Enter your email</label><br>
-                <input type="email" name="email" placeholder="Enter your email.." Required><br>
+                <label for="email">Enter your email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email.." Required><br>
 
-                <label>Password</label><br>
-                <input type="password" name="password" placeholder="Enter your password.." Required><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="Enter your password.." Required><br>
 
                 <section id="btn-style">
                     <input type="submit" id="submit" name="Submit" value="Submit">
