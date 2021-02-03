@@ -22,14 +22,14 @@
                     ?>
               </div>
 
-                <label>Enter your email</label><br>
-                <input type="email" name="email" placeholder="Enter your email.." Required><br>
+                <label for="email">Enter your email</label><br>
+                <input type="email" id="name" name="email" placeholder="Enter your email.." Required><br>
 
-                <label>Password</label><br>
-                <input type="password" name="password" placeholder="Enter your password.." Required><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password.." Required /><br>
 
                 <section id="btn-style">
-                    <input type="submit" id="submit" name="Submit" value="Submit">
+                    <input type="submit" id="submit" name="Submit" value="Login" />
                     
                 </section>
             </form>
