@@ -11,8 +11,8 @@
             <input type="text" id="address" name="saddress" />
         </div>
         <div class="form-group" id="class_drop">
-            <label>Class</label>
-            <select name="sclass">
+            <label for="class">Class</label>
+            <select name="sclass" id="class">
                 <option value="" selected disabled>Select Class</option>
                 <?php 
              $conn=mysqli_connect("localhost","root","","phpcrud") or die("Connection failed");
