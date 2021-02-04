@@ -25,16 +25,16 @@
 
     <form class="post-form" action="updatedata.php" method="post">
         <div class="form-group">
-            <label for="">Name</label>
-            <input type="hidden" name="sid"  value="<?php echo $row['sid']; ?>" />
-            <input type="text" name="sname" value="<?php echo $row['sname']; ?>" />
+            <label for="name">Name</label>
+            <input type="hidden" name="sid" value="<?php echo $row['sid']; ?>" />
+            <input type="text" name="sname" id="name" value="<?php echo $row['sname']; ?>" />
         </div>
         <div class="form-group">
-            <label>Address</label>
-            <input type="text" name="saddress" value="<?php echo $row['saddress']; ?>" />
+            <label for="address">Address</label>
+            <input type="text" name="saddress" id="address" value="<?php echo $row['saddress']; ?>" />
         </div>
         <div class="form-group">
-        <label>Class</label>
+        <label for="class">Class</label>
          <?php 
           $sql1="select * from studentclass";
 
@@ -59,8 +59,8 @@
       ?>
         </div>
         <div class="form-group">
-            <label>Phone</label>
-            <input type="text" name="sphone" value="<?php echo $row['sphone']; ?>" />
+            <label for="phone">Phone</label>
+            <input type="text" name="sphone" id="phone" value="<?php echo $row['sphone']; ?>" />
         </div>
     <input class="submit" type="submit" value="Update"  />
     </form>
