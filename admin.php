@@ -14,9 +14,8 @@
 
         <div class="form-div">
             <div class="btn_div">
-              <button class="btn_back"><a href="index.php" >Back</a></button>
+              <h1>New admin</h1>
             </div>
-            <h1>New admin</h1>
             <form action="adminDB.php" method="post">
                 <?php
                 if(isset($_GET['error']) && $_GET['error']=="true"){
@@ -34,6 +33,7 @@
 
                 <section id="btn-style">
                     <input type="submit" id="submit" name="Submit" value="Submit">
+                    <button class="btn_back"><a href="index.php" >Back</a></button>
                     
                 </section>
             </form>
