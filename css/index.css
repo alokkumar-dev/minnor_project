@@ -19,96 +19,139 @@ body{
 }
 
 #wrapper{
-    width: 90vw;
-    margin: 10px auto;
+    width: 100vw;
+    /* margin: 10px auto; */
     background-color: rgb(245, 140, 255);
 
 }
-.btn-div{
-    padding: 0 10px;
-    background-color: rgb(156, 1, 1);
 
-}
-.btn-logout{
-    font-size: 20px;
-    font-weight: bold;
-   
-    height: 2em;
-    background-color: #ffffffef;
-    padding: 2px 5px;
-    border-radius: 8px;
-    
-
-}
-.btn-logout a{
-    text-decoration: none;
-     color:red;
-    text-shadow: 1.2px 1.2px red;
-
-}
-.btn-admin{
-    font-size: 20px;
-    font-weight: bold;
-    color: red;
-    float: right;
-    height: 2.3em;
-    background-color: #ffffffef;
-    text-decoration: none;
-    padding:2px 5px;
-    border-radius: 8px;
-
-}
-.btn-admin a{
-    text-decoration: none;
-     color: red;
-    text-shadow: 1.2px 1.2px red;
-
-}
 
 #header{
     text-align: center;
-    background-color: #1abc9c;
     padding: 10px;
+    height: 20vh;
     background-color:rgb(156, 1, 1);
+    width: 100vw;
+
 
 }
+
+/* for laptops and tablets */
+/* @media only screen and (max-width: 1024px){
+    #header{
+    
+
+    }
+} */
 
 #header h1{
-    color: #fff;
-    font-size: 40px;
-    font-style: italic;
+    color: rgb(207, 205, 205);
+    font-size: 2.6em;
+    
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0;
+    margin-top: 2.1rem;
+
 }
+
+
+/* for iPad */
+@media only screen and (max-width: 768px){
+    #header h1{
+        font-size: 30px;
+        margin: 10px 10px;       
+    }
+}
+@media only screen and (max-width:425px){
+    #header{
+        width: 420px;
+    }
+    #header h1{
+        font-size: 20px;
+        margin:0;
+    }
+    
+}
+/* navigation starts here */
 
 #menu{
-    overflow: hidden;
-    background-color: #02178f;
-
+    /* overflow: hidden; */
+    justify-content: space-between;
+    background-color:rgb(58, 2, 2);
+    display: flex;
+    align-items: center;
 }
 #menu ul{
-    font-size: 35px;
-    padding: 0 15px;
+    display: flex;
     margin: 0;
+    
+    padding: 0;
+} 
+#menu ul li{
+    
+    padding: 1rem 1.3rem;
     list-style: none;
-} #menu ul li{
-    display: inline-block;
 }
+/* for iPad */
+@media only screen and (max-width: 1024px){
+    #menu ul li{
+    
+        padding: 1rem .3rem;
+        list-style: none;
+    }
+    #menu ul li a{
+        padding: 1rem 20px;
+        
+    }
+}
+
 #menu ul li a{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 10px 15px;
+    color: rgb(207, 205, 205);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 20px;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
-#menu ul li a:hover{
+#menu ul li:hover{
     background-color: rgb(196, 42, 75);
 }
 
+#menu .btn-div{
+    display: flex;
+}
+
+#menu .btn-div p{
+    padding: 1rem 1.3rem;
+    list-style: none;
+}
+
+#menu .btn-div p a{
+    color: rgb(207, 205, 205);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+/* for iPad */
+@media only screen and (max-width: 1024px){
+    #menu .btn-div p{
+    
+        padding: 1rem .2rem;
+        
+    }
+    #menu .btn-div p a{
+        padding: 1rem 20px;
+        
+    }
+}
+#menu .btn-div p:hover{
+    background-color: rgb(196, 42, 75);
+}
 /* header page start here */
 
 
