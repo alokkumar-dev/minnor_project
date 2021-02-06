@@ -12,12 +12,9 @@
 
 </div>
     <div id="wrapper">
-        <div class="btn-div">
-                <button class="btn-logout"><a href="home.php" >Logout</a></button>
-                <button class="btn-admin"><a href="admin.php" >New admin</a></button>
-        </div>
         <div id="header">
-            <h1>srms</h1>            
+            <h1>student record management system</h1>
+           
         </div>
         <div id="menu">
             <ul>
@@ -33,10 +30,14 @@
                 <li>
                     <a href="delete.php">Delete</a>
                 </li>
-                <li>
-              
-                </li>
+                
             </ul>
             
-            
+            <div class="btn-div">
+                <p><a href="home.php" >Logout</a></p>
+                <p><a href="admin.php" >New admin</a></p>
+           </div>
+
         </div>
+        
+   </div>
