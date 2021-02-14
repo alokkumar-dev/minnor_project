@@ -176,7 +176,11 @@ body{
 #main-content table th{
     color: #fff;
     background-color: #333;
-    text-trans
+    text-transform: uppercase;
+}
+#main-content table th:last-child{
+    width: 130px;
+}
 #main-content table td{
     background-color: #fff;
 }
