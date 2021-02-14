@@ -257,19 +257,6 @@ body{
     display: inline-block;
 }
 
-#main-content .pagination li a{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: #1abc9c;
-    display: inline-block;
-    margin: 0 5px 0 0;
-    transition: all 0.3s;
-}
 
 #main-content .pagination li a:hover{
     background-color: #333;
