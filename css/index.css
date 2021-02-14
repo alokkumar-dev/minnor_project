@@ -168,22 +168,7 @@ body{
 }
 
 #main-content table{
-    width: 85vw;
-    background-color: #555;
-    margin: 0 0 20px;
-}
-
-#main-content table th{
-    color: #fff;
-    background-color: #333;
-    text-transform: uppercase;
-}
-#main-content table th:last-child{
-    width: 130px;
-}
-#main-content table td{
-    background-color: #fff;
-}
+    width: 85vw
 #main-content table td a{
     font-size: 14px;
     font-weight: 600;
