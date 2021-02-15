@@ -175,7 +175,18 @@ body{
 
 #main-content table th{
     color: #fff;
-    bact-weight: 600;
+    background-color: #333;
+    text-transform: uppercase;
+}
+#main-content table th:last-child{
+    width: 130px;
+}
+#main-content table td{
+    background-color: #fff;
+}
+#main-content table td a{
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 3px 7px;
     color: #fff;
