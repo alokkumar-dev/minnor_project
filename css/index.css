@@ -181,23 +181,6 @@ body{
 #main-content table th:last-child{
     width: 130px;
 }
-#main-content table td{
-    background-color: #fff;
-}
-#main-content table td a{
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 3px 7px;
-    color: #fff;
-    background-color: #e67e22;
-    text-decoration: none;
-    border-radius: 3px;
-}
-#main-content table td a:nth-child(2){
-    background-color: #e74c3c;
-    margin: 0 0 0 5px;
-}
 
 #main-content .post-form{
     width: 50%;
