@@ -126,16 +126,3 @@ body{
         color: rgb(0, 255, 0); 
         text-shadow: 1PX 1PX rgb(0, 255, 0); 
     }
-/*      
-    @media(max-width: 768px){
-        .form-div{
-             background-image:
-        linear-gradient(-33deg, rgba(210, 54, 241, 0.685));
-         background-color: rgb(240, 23, 23);
-        }
-       
-    
-    }  
-
-     */
-
