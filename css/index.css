@@ -160,8 +160,8 @@ body{
 
 #main-content{
     margin:10px;
-    min-height: 500px;
     font-size:18px;
+   
 }
 #main-content h2{
     margin: 0 0 10px;
@@ -169,7 +169,7 @@ body{
 }
 
 #main-content table{
-    width: 100vw;
+    width: 100%;
     background-color: #555;
     margin: 0 0 20px;
 }
@@ -187,7 +187,7 @@ body{
 }
 #main-content table td a{
     font-size: 14px;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-transform: uppercase;
     padding: 3px 7px;
     color: #fff;
