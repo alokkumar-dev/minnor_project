@@ -19,7 +19,6 @@ session_start();
         ?>
 <body>
     <dev class="container">
-      
 <?php echo $_SESSION['username']; ?>
 
     </dev>    
@@ -30,7 +29,6 @@ session_start();
         <th>Address</th>
         <th>Class</th>
         <th>Phone</th>
-
         </thead>
         <tbody>
             <?php
