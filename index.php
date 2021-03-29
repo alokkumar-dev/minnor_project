@@ -14,8 +14,6 @@ session_start();
         $result= mysqli_query($conn,$str) or die("Query unsuccessfull");
 
         if(mysqli_num_rows($result)>0){
-
-
         ?>
 <body>
     <dev class="container">
