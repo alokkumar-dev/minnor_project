@@ -14,6 +14,7 @@ session_start();
   if($num == 1){
        $_SESSION['username'] = $name;
       header('location: index.php');
+
     
   }
   else{
