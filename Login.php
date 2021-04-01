@@ -18,8 +18,6 @@ session_start();
   }
   else{
      header('location: home.php?error=true');
- 
-
  }
 ?>
 
