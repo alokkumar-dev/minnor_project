@@ -15,8 +15,6 @@ session_start();
        $_SESSION['username'] = $name;
       header('location: index.php');
 
-
-    
   }
   else{
      header('location: home.php?error=true');
