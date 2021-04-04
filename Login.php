@@ -3,6 +3,11 @@
 session_start();
 
 
+
+
+
+
+
   $conn = mysqli_connect("localhost","root","","phpcrud") or die("Connection failed");
   
   $email = $_POST['email'];
