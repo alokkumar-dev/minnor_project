@@ -22,6 +22,8 @@
                     ?>
               </div>
 
+
+
                 <label for="email">Enter your email</label><br>
                 <input type="email" id="name" name="email" placeholder="Enter your email.." Required><br>
 
