@@ -47,6 +47,7 @@
           }
          echo  '</select>';
        }
+
       ?>
          
       </div>
@@ -56,8 +57,11 @@
       </div>
       <input class="submit" type="submit" value="Update"/>
     </form>
-  <?php }
+  <?php
+ }
+
 }
+
    ?>
 </div>
 </div>
