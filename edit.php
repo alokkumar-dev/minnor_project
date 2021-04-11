@@ -41,7 +41,6 @@
 
             }else{
               $select="";
-
             }
 
             echo "<option {$select} value='{$row1['cid']}'>{$row1['cname']}</option>";
@@ -64,5 +63,3 @@
 </div>
 </body>
 </html>
-
-
